@@ -16,14 +16,10 @@ Installation
 Add RoxWayErrorNotifyBundle to your vendor/bundles/ dir
 ------------------------------------------
 
-::
-
     $ git submodule add git://github.com/szymek/RoxWayErrorNotifyBundle.git vendor/bundles/RoxWay/Bundle/ErrorNotifyBundle
 
 Add the RoxWay namespace to your autoloader
 ----------------------------------------
-
-::
 
     // app/autoload.php
     $loader->registerNamespaces(array(
@@ -33,8 +29,6 @@ Add the RoxWay namespace to your autoloader
 
 Add RoxWayErrorNotifyBundle to your application kernel
 -----------------------------------------
-
-::
 
     // app/AppKernel.php
 
@@ -47,12 +41,8 @@ Add RoxWayErrorNotifyBundle to your application kernel
         );
     }
 
-
-
 Configure your project
 ----------------------
-
-::
 
 	rox_way_error_notify:
 	  is_enable: true

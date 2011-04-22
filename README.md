@@ -54,7 +54,7 @@ Configure your project
 
 ::
 
-rox_way_error_notify:
-  is_enable: true
-  to_mail: error_notify_to_mail@example.com
-  from_mail: error_notify_from_mail@example.com
+	rox_way_error_notify:
+	  is_enable: true
+	  to_mail: error_notify_to_mail@example.com
+	  from_mail: error_notify_from_mail@example.com

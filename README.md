@@ -43,7 +43,7 @@ Add RoxWayErrorNotifyBundle to your application kernel
 
 Configure your project
 ----------------------
-
+	// app/config.yml
 	rox_way_error_notify:
 	  is_enable: true
 	  to_mail: error_notify_to_mail@example.com

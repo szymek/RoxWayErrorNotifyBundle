@@ -20,17 +20,19 @@ Add RoxWayErrorNotifyBundle to your vendor/bundles/ dir
 
 Add the RoxWay namespace to your autoloader
 ----------------------------------------
-	
+	```php
 	<?php
     // app/autoload.php
     $loader->registerNamespaces(array(
         'RoxWay' => __DIR__.'/../vendor/bundles',
         // your other namespaces
     );
+	```
 
 Add RoxWayErrorNotifyBundle to your application kernel
 -----------------------------------------
 	
+	```php
 	<?php
     // app/AppKernel.php
 
@@ -42,6 +44,7 @@ Add RoxWayErrorNotifyBundle to your application kernel
             // ...
         );
     }
+	```
 
 Configure your project
 ----------------------

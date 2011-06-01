@@ -12,7 +12,7 @@
 
     <services>
         <service id="roxway.error_notify.listener" class="%roxway.error_notify.listener.class%">
-            <tag name="kernel.listener" event="onCoreException" />
+            <tag name="kernel.listener" event="core.exception" method="onCoreException" />
             <call method="setErrorNotifyMailer">
                 <argument type="service" id="roxway.error_notify.mailer" />
             </call>

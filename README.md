@@ -2,7 +2,7 @@ README
 ======
 
 Provides e-mail error notification for your Symfony2 Project (only exceptions right now)
-
+**Caution:** This bundles is developed in sync with [symfony's repository](https://github.com/symfony/symfony)
 
 Requirements
 ============

@@ -27,7 +27,7 @@ class ErrorNotify {
      * @param GetResponseForExceptionEvent $Event
      * @return void
      */
-    public function onCoreException(GetResponseForExceptionEvent $Event) {
+    public function onKernelException(GetResponseForExceptionEvent $Event) {
         $this->getErrorNotifyMailer()->sendException($Event->getException());
     }
     

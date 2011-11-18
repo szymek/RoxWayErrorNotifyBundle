@@ -14,10 +14,12 @@ Requirements
 Installation
 ============
 
-Add RoxWayErrorNotifyBundle to your vendor/bundles/ dir
+Add RoxWayErrorNotifyBundle to your deps
 ------------------------------------------
 
-    $ git submodule add git://github.com/szymek/RoxWayErrorNotifyBundle.git vendor/bundles/RoxWay/Bundle/ErrorNotifyBundle
+    [RoxWayErrorNotifyBundle]
+	    git=https://github.com/szymek/RoxWayErrorNotifyBundle.git
+	    target=/bundles/RoxWay/Bundle/ErrorNotifyBundle
 
 Add the RoxWay namespace to your autoloader
 ----------------------------------------
